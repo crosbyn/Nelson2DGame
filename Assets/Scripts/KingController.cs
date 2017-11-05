@@ -26,6 +26,7 @@ public class KingController : MonoBehaviour {
     float wallRadius = 0.2f;
     public LayerMask whatIsWall;
 
+    private AudioSource audioSource;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -43,7 +44,7 @@ public class KingController : MonoBehaviour {
         // allow it to show up in unity editor, yet keep it private
 
         anim = GetComponent<Animator>();
-
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -64,12 +65,14 @@ public class KingController : MonoBehaviour {
         {
             myRigidBody2D.velocity =
                 new Vector2(myRigidBody2D.velocity.x, jumpHeight);
+            audioSource.Play();
             isOnGround = false;
         }
         else if(Input.GetButtonDown("Jump") && isOnWall)
         {
             myRigidBody2D.velocity =
                 new Vector2(myRigidBody2D.velocity.x, jumpHeight);
+            audioSource.Play();
         }
     }
 
