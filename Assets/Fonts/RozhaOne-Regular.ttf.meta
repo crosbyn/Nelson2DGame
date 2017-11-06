@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: fe05cd4a893307642977d5b178bc5238
+timeCreated: 1509998508
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Rozha One
+  fontNames:
+  - Rozha One
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
