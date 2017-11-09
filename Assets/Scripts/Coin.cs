@@ -9,7 +9,7 @@ public class Coin : MonoBehaviour
     private BoxCollider2D boxCollider2D;
     private SpriteRenderer spriteRender;
 
-    public static int coinCount; 
+    public static int coinCount = 0; 
     //make this static so that there is only one coinCount for the whole class rather than every instance
 
 
@@ -30,8 +30,8 @@ public class Coin : MonoBehaviour
             boxCollider2D.enabled = false;
             spriteRender.enabled = false;
 
-            float length = audioSource.clip.length + 0.2f;
-            coinCount++; //Adds 1 to coinCount
+            float length = audioSource.clip.length;
+            coinCount = coinCount + 1; //Adds 1 to coinCount
 
 
             Destroy(gameObject, audioSource.clip.length);

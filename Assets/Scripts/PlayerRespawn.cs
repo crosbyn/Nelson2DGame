@@ -18,7 +18,9 @@ public class PlayerRespawn : MonoBehaviour
         else
         {
             //If there is no current checkpoint
+            Coin.coinCount = 0;
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            
         }
        
     }

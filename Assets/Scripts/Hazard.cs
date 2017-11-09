@@ -5,6 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class Hazard : MonoBehaviour
 {
+    private AudioSource audioSource;
+
+
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -14,6 +21,7 @@ public class Hazard : MonoBehaviour
             PlayerRespawn playerRespawn =
                 collision.gameObject.GetComponent<PlayerRespawn>();
 
+            audioSource.Play();
             playerRespawn.Respawn();
         }
 

@@ -13,5 +13,17 @@ public class TitleScreen : MonoBehaviour
         SceneManager.LoadScene("Scene 1");
     }
 
+    public void CreditsButtonClicked()
+    {
+        //Load the next scene
+        SceneManager.LoadScene("CreditsScene");
+    }
+
+    public void HowToPlayButtonClicked()
+    {
+        //Load the next scene
+        SceneManager.LoadScene("ControlsScene");
+    }
+
 
 }
