@@ -25,5 +25,10 @@ public class TitleScreen : MonoBehaviour
         SceneManager.LoadScene("ControlsScene");
     }
 
+    public void QuitButtonClicked()
+    {
+        Application.Quit();
+    }
+
 
 }

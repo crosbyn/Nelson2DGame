@@ -159,6 +159,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c979432b2b8c4b4faba1108b75ae9fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activatedScale: 1.5
+  deactivatedScale: 1
+  activatedColor: {r: 0.11764706, g: 0.9411765, b: 0.6666667, a: 1}
+  deactivatedColor: {r: 0.11764706, g: 0.9411765, b: 0.6666667, a: 0.603}
 --- !u!212 &212213649333513722
 SpriteRenderer:
   m_ObjectHideFlags: 1

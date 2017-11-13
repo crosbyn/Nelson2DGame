@@ -21,10 +21,10 @@ EditorBuildSettings:
     path: Assets/Scenes/CreditsScene.unity
     guid: d31c9b31197f1f64883b2c46079de880
   - enabled: 0
-    path: Assets/Scenes/HowToPlay.unity
+    path: 
     guid: b7111f35242d70b448e3edf8ea110895
   - enabled: 0
-    path: Assets/Scenes/HowToPlayScene.unity
+    path: 
     guid: 0245ac118ae9b8f4a97ac0c715c227dd
   - enabled: 1
     path: Assets/Scenes/ControlsScene.unity

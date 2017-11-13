@@ -578,7 +578,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4598184966567178, guid: 15ab5b2ffee700c4787bead2b18c5c6b, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 17.43
+      value: 16.96
       objectReference: {fileID: 0}
     - target: {fileID: 4598184966567178, guid: 15ab5b2ffee700c4787bead2b18c5c6b, type: 2}
       propertyPath: m_LocalPosition.y
@@ -611,7 +611,7 @@ Prefab:
     - target: {fileID: 61982732424822920, guid: 15ab5b2ffee700c4787bead2b18c5c6b,
         type: 2}
       propertyPath: m_Size.x
-      value: 6.3
+      value: 5.28
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 15ab5b2ffee700c4787bead2b18c5c6b, type: 2}
@@ -1607,7 +1607,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 6200000, guid: 6dd144fdde79f2d4780536f15ed7a046, type: 2}
+  m_Material: {fileID: 0}
   m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
