@@ -1554,7 +1554,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ab078f616ecfd7840a5794bfe95bc0db, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.261
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1951,8 +1951,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -81.4, y: -35.3}
-  m_SizeDelta: {x: 120.47, y: 36.59}
+  m_AnchoredPosition: {x: -99.3, y: -40.7}
+  m_SizeDelta: {x: 156.3, y: 47.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1998808227
 MonoBehaviour:
@@ -1986,11 +1986,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: fe05cd4a893307642977d5b178bc5238, type: 3}
-    m_FontSize: 24
+    m_FontSize: 32
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 40
+    m_MinSize: 0
+    m_MaxSize: 232
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -2029,7 +2029,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: df94223ff1d66ed44a6eb0149016fbd9, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 398d0dd378a5e604d916949cc8a5a51c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

@@ -1680,7 +1680,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ab078f616ecfd7840a5794bfe95bc0db, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.405
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1915,7 +1915,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: df94223ff1d66ed44a6eb0149016fbd9, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 1e56a989a79ec254aabf92c928f37b7e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.778
   m_Pitch: 1
@@ -1973,7 +1973,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -2060,8 +2060,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -81.4, y: -35.3}
-  m_SizeDelta: {x: 120.47, y: 36.59}
+  m_AnchoredPosition: {x: -99.3, y: -40.7}
+  m_SizeDelta: {x: 156.3, y: 47.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1641750395
 MonoBehaviour:
@@ -2095,11 +2095,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: fe05cd4a893307642977d5b178bc5238, type: 3}
-    m_FontSize: 24
+    m_FontSize: 32
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 40
+    m_MinSize: 0
+    m_MaxSize: 232
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
